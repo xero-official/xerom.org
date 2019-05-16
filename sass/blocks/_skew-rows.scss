@@ -1,0 +1,176 @@
+/*------------- #SKEW-ROWS --------------*/
+
+
+
+.section-bg-skew {
+  position: relative;
+  background-size: cover;
+
+  & > .container {
+    position: relative;
+    z-index: 2;
+  }
+
+  &:before, &:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    max-width: 100%;
+    left: 0;
+  }
+
+  &:before {
+    height: 170px;
+    background: linear-gradient(to right bottom, $white-color 50%, transparent 50%);
+    top: -1px;
+  }
+
+  &:after {
+    height: 170px;
+    background: linear-gradient(to right bottom, transparent 50%, $white-color 50%);
+    bottom: -1px;
+  }
+}
+
+
+/*------------- #Rounded-ROWS --------------*/
+
+
+.section-bg-rounded {
+  position: relative;
+  background-size: cover;
+
+  & > .container {
+    position: relative;
+    z-index: 2;
+  }
+
+  &:before, &:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    background-size: cover;
+  }
+
+  &:before {
+    top: -10px;
+    left: 0;
+  }
+
+  &:after {
+    bottom: -10px;
+    left: 0;
+  }
+
+  &:first-of-type {
+    &:before {
+      display: none;
+    }
+  }
+
+  &:last-of-type {
+    &:after {
+      display: none;
+    }
+  }
+}
+
+.bg-rounded-style1 {
+  &:before {
+    content: url("../svg/01-wave-rotate-180.svg");
+  }
+
+  &:after {
+    content: url("../svg/01-wave.svg");
+  }
+}
+
+.bg-rounded-style2 {
+  &:before {
+    background-image: url("../svg/02-wave.svg");
+    height: 175px;
+  }
+
+  &:after {
+    background-image: url("../svg/03-wave.svg");
+    height: 130px;
+  }
+}
+
+.bg-rounded-style3 {
+  &:before {
+    background-image: url("../svg/04-wave.svg");
+    height: 150px;
+  }
+
+  &:after {
+    background-image: url("../svg/05-wave.svg");
+    height: 150px;
+  }
+}
+
+.bg-rounded-style4 {
+  &:before {
+    background-image: url("../svg/06-wave.svg");
+    height: 120px;
+  }
+
+  &:after {
+    background-image: url("../svg/06-wave-inverted.svg");
+    height: 120px;
+  }
+}
+
+.not-top-element {
+
+  &:before {
+    display: none;
+  }
+}
+
+.not-bottom-element {
+
+  &:after {
+    display: none;
+  }
+}
+
+
+/*================= Responsive Mode ============*/
+
+
+@media (max-width: 800px) {
+  .bg-skew > * {
+    padding: 0 70px;
+  }
+
+  .bg-skew.medium-padding120 {
+    padding: 60px 0;
+  }
+
+  .bg-skew.pt180 {
+    padding-top: 90px;
+  }
+
+  .bg-skew.pt120 {
+    padding-top: 60px;
+  }
+
+  .negative-margin-bottom80 {
+    margin-bottom: auto;
+  }
+
+  body.skew-rows .bg-skew:last-of-type {
+    margin-bottom: -40px;
+  }
+
+  .section-bg-skew::before {
+    height: 90px;
+  }
+
+  .section-bg-skew::after {
+    height: 90px
+  }
+}
