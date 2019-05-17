@@ -26,7 +26,7 @@
   font-size: 14px;
   font-weight: 700; }
   .w-info .learn-more:hover {
-    color: #0083ff; }
+    color: #308968; }
 
 .widget-title {
   margin-bottom: 20px; }
@@ -48,7 +48,7 @@
     .w-list .list li:hover .utouch-icon {
       opacity: 1; }
     .w-list .list li:hover a {
-      color: #0083ff;
+      color: #308968;
       margin-left: 8px; }
     .w-list .list li .utouch-icon {
       width: 16px;
@@ -79,8 +79,8 @@
   height: 14px;
   width: 14px; }
   .w-follow .utouch-icon:hover {
-    color: #0083ff;
-    fill: #0083ff; }
+    color: #308968;
+    fill: #308968; }
 
 svg.utouch-icon {
   transition: all .3s ease;
@@ -100,15 +100,15 @@ svg.utouch-icon {
   display: block; }
 
 .w-contacts a.info:hover {
-  color: #0083ff; }
+  color: #308968; }
 
 .contact-item {
   margin-bottom: 5px; }
   .contact-item .utouch-icon {
     height: 18px;
     width: 18px;
-    color: #0083ff;
-    fill: #0083ff;
+    color: #308968;
+    fill: #308968;
     margin-right: 10px; }
 
 .contacts-text {
@@ -165,7 +165,7 @@ svg.utouch-icon {
     color: #273f5b;
     margin-bottom: 20px; }
   .location-details a:hover {
-    color: #0083ff; }
+    color: #308968; }
 
 /*================= Responsive Mode ============*/
 @media (max-width: 580px) {
@@ -230,12 +230,12 @@ svg.utouch-icon {
   .w-category .category-list li:first-child a:before {
     border-radius: 3px 3px 0 0; }
   .w-category .category-list li:hover a {
-    color: #0083ff; }
+    color: #308968; }
     .w-category .category-list li:hover a:before {
-      background-color: #0083ff; }
+      background-color: #308968; }
   .w-category .category-list li:hover .cat-count {
     color: #fff;
-    background-color: #0083ff; }
+    background-color: #308968; }
 
 .w-category .cat-count {
   font-size: 11px;
@@ -280,9 +280,9 @@ svg.utouch-icon {
     display: block;
     line-height: 1; }
     .w-tags a:hover {
-      background-color: #0083ff;
+      background-color: #308968;
       color: #fff;
-      border-color: #0083ff;
+      border-color: #308968;
       box-shadow: 10px 0 30px rgba(0, 131, 255, 0.3); }
 
 /*================= Responsive Mode ============*/
@@ -365,7 +365,7 @@ svg.utouch-icon {
       width: 0;
       height: 3px;
       border-radius: 3px;
-      background-color: #0083ff;
+      background-color: #308968;
       position: absolute;
       bottom: 0;
       left: 0;
@@ -374,7 +374,7 @@ svg.utouch-icon {
   .tab-control + .tab-control {
     margin-left: 30px; }
   .tab-control.active a {
-    color: #0083ff; }
+    color: #308968; }
     .tab-control.active a:after {
       opacity: 1;
       width: 100%; }

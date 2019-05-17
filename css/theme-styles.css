@@ -360,12 +360,12 @@ ul {
   color: #00ffff; }
 
 .list--primary i, .list--primary .utouch-icon {
-  color: #0083ff;
-  fill: #0083ff; }
+  color: #308968;
+  fill: #308968; }
 
 .list--primary a:hover {
-  color: #0083ff;
-  fill: #0083ff; }
+  color: #308968;
+  fill: #308968; }
 
 ol {
   counter-reset: list1;
@@ -485,7 +485,7 @@ blockquote {
     font-weight: 400;
     color: #6a87a9; }
     blockquote h6 span {
-      color: #0083ff;
+      color: #308968;
       font-weight: 700;
       display: block; }
   blockquote cite {
@@ -725,7 +725,7 @@ h6, .h6 {
   font-size: 30px;
   color: #fff;
   text-align: center;
-  background-color: #0083ff; }
+  background-color: #308968; }
 
 .first-letter--dark span:first-of-type {
   margin-right: 20px;
@@ -735,7 +735,7 @@ h6, .h6 {
   float: left; }
 
 .first-letter--primary span:first-of-type {
-  color: #0083ff;
+  color: #308968;
   margin-right: 20px;
   font-size: 48px;
   line-height: 48px;
@@ -1662,7 +1662,7 @@ body.crumina-grid .kc_col-of-5 {
   .icon-demonstration .utouch-icon {
     height: 32px;
     min-width: 32px;
-    fill: #0083ff; }
+    fill: #308968; }
   .icon-demonstration pre {
     font-size: 12px;
     color: #EF6517; }
@@ -4459,7 +4459,7 @@ textarea {
       top: 4px;
       position: relative; }
   .nav-add:hover .utouch-icon {
-    fill: #0083ff; }
+    fill: #308968; }
 
 .header-spacer {
   position: relative;
@@ -4511,7 +4511,7 @@ textarea {
   .header--dark .logo-title {
     color: #fff; }
   .header--dark .logo-sub-title {
-    color: #0083ff; }
+    color: #308968; }
   .header--dark .mob-menu--title {
     color: #fff; }
 
@@ -5144,7 +5144,7 @@ License: http://codecanyon.net/licenses
 .primary-menu-menu > li:hover,
 .primary-menu-menu > li.current-menu-item a,
 .primary-menu-menu > li.current-menu-item {
-  color: #0083ff; }
+  color: #308968; }
 
 .primary-menu-menu > li:before {
   content: '';
@@ -5190,7 +5190,7 @@ License: http://codecanyon.net/licenses
   box-shadow: 10px 0 50px rgba(18, 25, 33, 0.1);
   list-style: none;
   display: none;
-  border-top: 4px solid #0083ff;
+  border-top: 4px solid #308968;
   margin-bottom: 0; }
 
 @media (max-width: 768px) {
@@ -5314,11 +5314,11 @@ License: http://codecanyon.net/licenses
 .primary-menu-menu ul.sub-menu li:hover > a,
 .primary-menu-menu > li.menu-item-has-mega-menu .megamenu ul > li:hover a {
   transition: all .3s ease;
-  color: #0083ff; }
+  color: #308968; }
 
 .primary-menu-menu ul.sub-menu li:hover:before,
 .primary-menu-menu > li.menu-item-has-mega-menu .megamenu ul > li:hover:before {
-  background-color: #0083ff; }
+  background-color: #308968; }
 
 /* Dropdown left alignment */
 .primary-menu-menu ul.sub-menu.sub-menu-left {
@@ -5358,7 +5358,7 @@ License: http://codecanyon.net/licenses
   background-repeat: no-repeat;
   box-shadow: 10px 0 50px rgba(18, 25, 33, 0.1);
   border-radius: 4px 4px 10px 10px;
-  border-top: 4px solid #0083ff; }
+  border-top: 4px solid #308968; }
 
 .primary-menu-menu > li > .megamenu ul {
   list-style: none;
@@ -5832,7 +5832,7 @@ License: http://codecanyon.net/licenses
     transform: rotate(90deg);
     border-left: none; }
   .primary-menu-menu > li:hover > a .indicator, .primary-menu-menu > li:hover .indicator {
-    color: #0083ff; }
+    color: #308968; }
   /* Megamenu */
   .primary-menu-responsive .primary-menu-menu > li > .megamenu {
     width: 100% !important;
@@ -6258,9 +6258,9 @@ nav li.menu-item-has-mega-menu ul.mega-menu-row li {
     display: inline-block;
     vertical-align: middle; }
   .more-arrow:hover {
-    color: #0083ff; }
+    color: #308968; }
     .more-arrow:hover .btn-next .utouch-icon {
-      fill: #0083ff; }
+      fill: #308968; }
     .more-arrow:hover .btn-next {
       margin-left: 5px;
       margin-right: -5px; }
@@ -6334,7 +6334,7 @@ nav li.menu-item-has-mega-menu ul.mega-menu-row li {
 
 .primary-menu--dark .primary-menu-menu ul.sub-menu li:hover:before,
 .primary-menu--dark .primary-menu-menu > li.menu-item-has-mega-menu .megamenu ul > li:hover:before {
-  background-color: #0083ff; }
+  background-color: #308968; }
 
 .primary-menu--dark .product-item:hover {
   background-color: #0f141a; }
@@ -6348,7 +6348,7 @@ nav li.menu-item-has-mega-menu ul.mega-menu-row li {
   color: #839dbc; }
   .primary-menu--dark .primary-menu-menu > li.menu-item-has-mega-menu .megamenu ul > li a:hover,
   .primary-menu--dark .primary-menu-menu ul.sub-menu li a:hover {
-    color: #0083ff; }
+    color: #308968; }
 
 .primary-menu--dark .megamenu-item-info-text {
   color: #4b5d73; }
@@ -6404,10 +6404,10 @@ nav li.menu-item-has-mega-menu ul.mega-menu-row li {
   .breadcrumbs-item a {
     margin-right: 6px; }
     .breadcrumbs-item a:hover {
-      color: #0083ff; }
+      color: #308968; }
   .breadcrumbs-item.active span {
     font-weight: 700;
-    color: #0083ff; }
+    color: #308968; }
   .breadcrumbs-item .utouch-icon {
     margin-right: 6px;
     fill: #d1e8f6;
@@ -6429,7 +6429,7 @@ nav li.menu-item-has-mega-menu ul.mega-menu-row li {
   border-radius: 30px;
   padding: 6px 30px; }
   .breadcrumbs--bordered .breadcrumbs-item a {
-    color: #0083ff; }
+    color: #308968; }
   .breadcrumbs--bordered .breadcrumbs-item.active span {
     color: #fff; }
 
@@ -6651,7 +6651,7 @@ nav li.menu-item-has-mega-menu ul.mega-menu-row li {
     background-color: transparent;
     font-size: 13px;
     margin-bottom: 0;
-    color: #0083ff;
+    color: #308968;
     width: auto;
     min-width: 110px;
     box-shadow: none;
@@ -6706,7 +6706,7 @@ nav li.menu-item-has-mega-menu ul.mega-menu-row li {
       line-height: 1;
       color: #4b5d73; }
   .top-bar a:hover {
-    color: #0083ff; }
+    color: #308968; }
   .top-bar span {
     color: #6987ab; }
   .top-bar .follow_us {
@@ -6735,7 +6735,7 @@ nav li.menu-item-has-mega-menu ul.mega-menu-row li {
     width: 15px;
     height: 15px; }
     .top-bar-close .utouch-icon:hover {
-      fill: #0083ff; }
+      fill: #308968; }
 
 .top-bar-dark {
   background-color: #151414;
@@ -6780,7 +6780,7 @@ nav li.menu-item-has-mega-menu ul.mega-menu-row li {
     transform: rotate(180deg);
     transition: all .3s ease; }
   .top-bar-link:hover .utouch-icon {
-    fill: #0083ff; }
+    fill: #308968; }
 
 /*================= Responsive Mode ============*/
 @media (max-width: 1200px) {
@@ -6869,9 +6869,9 @@ nav li.menu-item-has-mega-menu ul.mega-menu-row li {
   .sub-footer a {
     color: #4b5d73; }
     .sub-footer a:hover {
-      color: #0083ff; }
+      color: #308968; }
   .sub-footer .sub-footer__link {
-    color: #0083ff;
+    color: #308968;
     font-weight: 700; }
 
 .content-wrapper {

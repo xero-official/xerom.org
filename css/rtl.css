@@ -615,7 +615,7 @@ table > tbody > tr > td, .table > tfoot > tr > td {
 
 .choose-item.bg-primary-color::after {
 	border-left-color: unset;
-	border-right-color: #0083ff;
+	border-right-color: #308968;
 }
 
 .choose-item::after {
