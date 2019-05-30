@@ -20,9 +20,6 @@
 	<!-- Styles for Plugins -->
 	<link rel="stylesheet" type="text/css" href="css/swiper.min.css">
 
-	<!--Styles for RTL-->
-
-	<!--<link rel="stylesheet" type="text/css" href="css/rtl.css">-->
 	<!-- amCharts javascript sources -->
 	<script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
 	<script src="https://www.amcharts.com/lib/3/serial.js"></script>
@@ -30,6 +27,84 @@
 
 
 	<!-- amCharts javascript code -->
+	<script>
+		AmCharts.makeChart("chartdiv2", {
+			"type": "serial",
+			"categoryField": "category",
+			"startDuration": 1,
+			"theme": "black",
+			"categoryAxis": {
+				"gridPosition": "start"
+			},
+			"trendLines": [],
+			"graphs": [{
+				"balloonText": "Circulating [[title]] at [[category]]:[[value]]",
+				"bullet": "round",
+				"id": "AmGraph-1",
+				"title": "XERO Supply",
+				"type": "smoothedLine",
+				"valueField": "column-1"
+			}],
+			"guides": [],
+			"valueAxes": [{
+				"id": "ValueAxis-1",
+				"title": "XERO Supply"
+			}],
+			"allLabels": [],
+			"balloon": {},
+			"legend": {
+				"enabled": true,
+				"useGraphSettings": true
+			},
+			"titles": [{
+				"id": "Title-1",
+				"size": 15,
+				"text": "XERO Circulating Supply"
+			}],
+			"dataProvider": [{
+					"category": "Block 1M",
+					"column-1": "24000000"
+				},
+				{
+					"category": "Block 2M",
+					"column-1": "46000000"
+				},
+				{
+					"category": "Block 3M",
+					"column-1": "68000000"
+				},
+				{
+					"category": "Block 4M",
+					"column-1": "88000000"
+				},
+				{
+					"category": "Block 5M",
+					"column-1": "108000000"
+				},
+				{
+					"category": "Block 6M",
+					"column-1": "128000000"
+				},
+				{
+					"category": "Block 7M",
+					"column-1": "146000000"
+				},
+				{
+					"category": "Block 8M",
+					"column-1": "164000000"
+				},
+				{
+					"category": "Block 9M",
+					"column-1": "180000000"
+				},
+				{
+					"category": "Block 10M",
+					"column-1": "196000000"
+				}
+			]
+		});
+	</script>
+
 	<script>
 		AmCharts.makeChart("chartdiv", {
 			"type": "serial",
@@ -155,6 +230,8 @@
 			]
 		});
 	</script>
+
+	<!-- END amCharts javascript code -->
 
 	<style>
 		.tg {
@@ -533,7 +610,7 @@
 
 									<div class="teammembers-item-prof">Xerom Founder</div>
 
-									<a href="#" class="h5 teammembers-item-name">Ethan van Ballegooyen</a>
+									<a href="https://twitter.com/FallenGrav1ty" class="h5 teammembers-item-name">Ethan van Ballegooyen</a>
 
 									<p>Ethan has a background in Web Development as well as the media industry.</p>
 
@@ -598,10 +675,10 @@
 									<a href="https://github.com/Dev-JamesR" class="h5 teammembers-item-name">James Reilly</a>
 
 									<p>James has a background in mobile, web and embedded systems development.</p>
-                                       <ul class="socials socials--round">
+									<ul class="socials socials--round">
 										<li>
-											<a href="" class="social__item twitter">
-												<svg class="utouch-icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
+											<a href="" class="social__item twitter" style="border: white;fill: white;background: white;color: white;    box-shadow: 5px 0 10px 0 rgba(255, 255, 255, 0.3);">
+												<svg class="utouch-icon" style="color:white;fill: white;" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
 													<path
 														d="M16 3.038c-.59.26-1.22.437-1.885.517.677-.407 1.198-1.05 1.443-1.816-.634.37-1.337.64-2.085.79-.598-.64-1.45-1.04-2.396-1.04-1.812 0-3.282 1.47-3.282 3.28 0 .26.03.51.085.75-2.728-.13-5.147-1.44-6.766-3.42C.83 2.58.67 3.14.67 3.75c0 1.14.58 2.143 1.46 2.732-.538-.017-1.045-.165-1.487-.41v.04c0 1.59 1.13 2.918 2.633 3.22-.276.074-.566.114-.865.114-.21 0-.41-.02-.61-.058.42 1.304 1.63 2.253 3.07 2.28-1.12.88-2.54 1.404-4.07 1.404-.26 0-.52-.015-.78-.045 1.46.93 3.18 1.474 5.04 1.474 6.04 0 9.34-5 9.34-9.33 0-.14 0-.28-.01-.42.64-.46 1.2-1.04 1.64-1.7z"
 														fill-rule="nonzero"></path>
@@ -777,17 +854,29 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-sm-offset-0 col-xs-12">
+
 						<div class="crumina-module crumina-heading">
 							<h2 class="heading-title">Distribution policy for <span class="c-primary">XERO</span></h2>
 						</div>
 						<div id="chartdiv" style="width: 100%; height: 400px; background-color: #222222;"></div>
+
+						<div class="crumina-module crumina-heading">
+							<h2 class="heading-title"> </h2>
+						</div>
+
 						<div class="crumina-module crumina-heading">
 							<h2 class="heading-title">Circulating supply over 5 years</h2>
+						</div>
+						<div id="chartdiv2" style="width: 100%; height: 400px; background-color: #222222;"></div>
+
+						<div class="crumina-module crumina-heading">
+							<h2 class="heading-title"> </h2>
 						</div>
 
 						<div class="crumina-module crumina-heading">
 							<h2 class="heading-title">Monetary Policy for <span class="c-primary">XERO</span></h2>
 						</div>
+
 						<div class="crumina-module crumina-heading">
 							<table class="tg" style="background-color: white;">
 								<tr style="border-color: black;">
